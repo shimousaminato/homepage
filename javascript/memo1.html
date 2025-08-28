@@ -1,0 +1,4 @@
+<h2>javascript:void(0)を指定する理由</h2>
+<p>aタグでリンクを踏ませるとき、javascriptで何か動作をさせたいときがあるとする。</p>
+<p>しかし、aのhrefにURLを書き込んでしまうと、onclick(jsの属性)が働く前に遷移してしまう。</p>
+<p>そのため、必ずundefinedを返すvoidを使い、onclickを作動させている。</p>
