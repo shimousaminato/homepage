@@ -14,5 +14,6 @@ a{
 a:hover{
   background-color: white;
   color: #00b000;
+  border: solid 2px #00b000;
 }
 
