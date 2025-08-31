@@ -1,3 +1,7 @@
+document.addEventListener('contextmenu', (event) => {
+  event.preventDefault();
+  alert('右クリックは禁止されています。');
+});
 document.addEventListener('keydown', (event) => {
   if (event.key === 'F12' || event.keyCode === 123) {
     event.preventDefault();
