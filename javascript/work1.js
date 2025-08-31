@@ -3,7 +3,7 @@ function posting() {
 
   const comment = document.getElementById('comment')
   const message = {
-    "content": comment, // チャット本文
+    "content": comment.value, // チャット本文
     "tts": false  // ロボットによる読み上げ機能を無効化
   }
 
@@ -13,5 +13,5 @@ function posting() {
     "payload": JSON.stringify(message)
   }
 
-  UrlFetchApp.fetch(discordWebHookURL, param);
+  fetch()(discordWebHookURL, param);
 }
