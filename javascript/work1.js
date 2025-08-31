@@ -1,7 +1,7 @@
 document.addEventListener('keydown', (event) => {
   if (event.key === 'F12' || event.keyCode === 123) {
     event.preventDefault();
-    alert('F12は禁止されています。')
+    alert('F12は禁止されています。');
   }
 });
 function posting() {
