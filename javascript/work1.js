@@ -15,4 +15,5 @@ function posting() {
       tts: false
     })
   })
+  commentElement.value = '';
 }
