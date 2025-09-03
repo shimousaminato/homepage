@@ -48,7 +48,7 @@ function posting() {
   discordWebHookURL = "https://discord.com/api/webhooks/1412807160479482007/djum3UWbzPE0i_X8k693hsBckMKFMIHK1YdH2XAZDzzJ_IXK2HAzRI1ut0hG-2A7g_rO"
  }
  else{
-  discordWebHookURL = "https://discord.com/api/webhooks/1389048593352228908/2XX9ryH4FtQx_Of4LRKPQGkfZtxO3LY2oqnvM0JiM4CDYQIE01oRnrPOGr1hJtCDvGJm";
+  discordWebHookURL = "https://discord.com/api/webhooks/1412837427134992492/lTVX8Dn2b1j_XzHj22q5n4oEcI5mAGH3_bdOn9gO_okWFyuS5aq1rd7vD-d3nbrNgndF";
  }
   const commentElement = document.getElementById('comment');
   const messageContent = commentElement.value; // テキストエリアの内容を取得
