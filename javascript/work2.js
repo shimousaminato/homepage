@@ -3,10 +3,10 @@ function posting() {
  const selectedOption = selectElement.options[selectElement.selectedIndex];
  const optionId = selectedOption.id;
  
- if optionId = A{
+ if optionId = "A" {
   let discordWebHookURL = "https://discord.com/api/webhooks/1412677510742937652/jqDPn5ikcZ03UEztX7kPRhCuUvrKppOhCCwjk8gJXzvwaSujg4ZvM5b0VfUuI8OqkCKd";
  }
- elif optionId = B{
+ elif optionId = "B" {
   let discordWebHookURL = "https://discord.com/api/webhooks/1412678875753873448/z_IuLTcmedIrqsev0Tokl_0FXo31oklcxvmptORK4NIsrIrIe9xBYU8T0kRzOe7losZa";
  }
  else{
