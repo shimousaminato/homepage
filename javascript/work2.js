@@ -41,6 +41,12 @@ function posting() {
   else if (optionId === "L") {
   discordWebHookURL = "https://discord.com/api/webhooks/1412684231989268611/L7Jcfw_DBdug2NPFpcCAsepfuqSZRETE5GQNO2ElVQUA5IxxxYpRoeSb4mHwLLCYSCtU"
  }
+  else if (optionId === "M") {
+  discordWebHookURL = "https://discord.com/api/webhooks/1412807032813129788/yIMID4KPyxLaL5VoW1XtRjNoCpAwgTwPy2vsUsTlfLtygFpzFq13d_EOwvyxzYpczlTM"
+ }
+  else if (optionId === "N") {
+  discordWebHookURL = "https://discord.com/api/webhooks/1412807160479482007/djum3UWbzPE0i_X8k693hsBckMKFMIHK1YdH2XAZDzzJ_IXK2HAzRI1ut0hG-2A7g_rO"
+ }
  else{
   discordWebHookURL = "https://discord.com/api/webhooks/1389048593352228908/2XX9ryH4FtQx_Of4LRKPQGkfZtxO3LY2oqnvM0JiM4CDYQIE01oRnrPOGr1hJtCDvGJm";
  }
