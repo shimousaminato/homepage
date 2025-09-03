@@ -1,0 +1,14 @@
+a{
+  display: inline-block;
+  background-color: #00b000;
+  padding: 5px;
+  border: solid 2px #00b000;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover{
+  background-color: white;
+  color: #00b000;
+}
