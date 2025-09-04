@@ -74,6 +74,10 @@ function getSiteInfo(optionId) {
       sitename = "空想別館";
       postcolor = 2043732;
       break;
+    case "O":
+      discordWebHookURL = "https://discord.com/api/webhooks/1413155797998764132/PEJOvur6VY1GI6YPku6h2dbHYQyGFCphPzhX-22o0i883X3K8w7qpX4DoP0b3-qFluFv"
+      sitename = "空想研究室";
+      postcolor = 0;
     case "Z":
       discordWebHookURL = "https://discord.com/api/webhooks/1412837427134992492/lTVX8Dn2b1j_XzHj22q5n4oEcI5mAGH3_bdOn9gO_okWFyuS5aq1rd7vD-d3nbrNgndF";
       sitename = "部活の";
