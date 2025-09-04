@@ -75,7 +75,7 @@ function getSiteInfo(optionId) {
       postcolor = 2043732;
       break;
     case "O":
-      discordWebHookURL = "https://discord.com/api/webhooks/1413155797998764132/PEJOvur6VY1GI6YPku6h2dbHYQyGFCphPzhX-22o0i883X3K8w7qpX4DoP0b3-qFluFv"
+      discordWebHookURL = "https://discord.com/api/webhooks/1413155797998764132/PEJOvur6VY1GI6YPku6h2dbHYQyGFCphPzhX-22o0i883X3K8w7qpX4DoP0b3-qFluFv";
       sitename = "空想研究室";
       postcolor = 0;
       break;
