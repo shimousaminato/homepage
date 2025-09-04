@@ -1,4 +1,7 @@
 function writing() {
+   const selectElement = document.getElementById('siteselect');
+  const selectedOption = selectElement.options[selectElement.selectedIndex];
+  const optionId = selectedOption.id;
    const textarea = document.getElementById('comment');
    let postcolor;
    let sitename;
