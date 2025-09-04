@@ -101,7 +101,7 @@ function writing() {
   var number = document.getElementById('worknumber').textContent;
    var numbervalue = Number(number);
    let kiriban = Math.ceil(numbervalue / 10000) * 10000;
-   const message = `${sitename}"の現在の投稿数は"${numbervalue}"です。\n"${kiriban - numbervalue}"作品で"${kiriban / 10000}"期に到達します。"`;
+   const message = `${sitename}"の現在の投稿数は"${number}"です。\n"${kiriban - numbervalue}"作品で"${kiriban / 10000}"期に到達します。"`;
   textarea.value = message;
 }
    
