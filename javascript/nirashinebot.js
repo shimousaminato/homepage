@@ -9,7 +9,7 @@ function posting() {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      content: "ﾆﾗｼﾈｰ!",
+      content: "ﾆﾗｼﾈｰ!";
       tts: false
     })
   })
