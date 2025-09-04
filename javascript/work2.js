@@ -1,14 +1,81 @@
+function writing() {
+   const textarea = document.getElementById('myTextarea');
+   let postcolor;
+   let sitename;
+   
+ if (optionId === "A") {
+  sitename = "空想鉄道";
+  postcolor = 28864;
+ }
+ else if (optionId === "B") {
+  sitename = "空想道路";
+  postcolor = 39246;
+ }
+ else if (optionId === "C") {
+  sitename = "空想地図";
+  postcolor = 16750848;
+ }
+ else if (optionId === "D") {
+  sitename = "空想路線図";
+  postcolor = 11803652;
+ }
+ else if (optionId === "E") {
+  sitename = "空想図画";
+  postcolor = 8392320;
+ }
+  else if (optionId === "F") {
+  sitename = "空想文章";
+  postcolor = 1127185;
+ }
+  else if (optionId === "G") {
+  sitename = "時刻表くらぶ";
+  postcolor = 6710886;
+ }
+  else if (optionId === "H") {
+  sitename = "点描くらぶ";
+  postcolor = 32896;
+ }
+  else if (optionId === "I") {
+  sitename = "似顔絵くらぶ";
+  postcolor = 6724095;
+ }
+  else if (optionId === "J") {
+  sitename = "問題くらぶ";
+  postcolor = 3754411;
+ }
+  else if (optionId === "K") {
+  sitename = "ふぁん";
+  postcolor = 16739328;
+ }
+  else if (optionId === "L") {
+  sitename = "地図ぬりえ";
+  postcolor = 6003669;
+ }
+  else if (optionId === "M") {
+  sitename = "私的空間";
+  postcolor = 16777215;
+ }
+  else if (optionId === "N") {
+  sitename = "空想別館";
+  postcolor = 2043732;
+ }
+ else{
+  sitename = "";
+  postcolor = ;
+ }
+   const message = sitename + "の現在の投稿数は  です。\n 期まであと  作品です。";
+  textarea.value = message;
+}
+   
 function posting() {
    const selectElement = document.getElementById('siteselect');
  const selectedOption = selectElement.options[selectElement.selectedIndex];
  const optionId = selectedOption.id;
 
  let discordWebHookURL;
- let postcolor;
    
  if (optionId === "A") {
   discordWebHookURL = "https://discord.com/api/webhooks/1412677510742937652/jqDPn5ikcZ03UEztX7kPRhCuUvrKppOhCCwjk8gJXzvwaSujg4ZvM5b0VfUuI8OqkCKd";
-  postcolor = 28864;
  }
  else if (optionId === "B") {
   discordWebHookURL = "https://discord.com/api/webhooks/1412678875753873448/z_IuLTcmedIrqsev0Tokl_0FXo31oklcxvmptORK4NIsrIrIe9xBYU8T0kRzOe7losZa";
