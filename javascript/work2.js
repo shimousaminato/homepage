@@ -1,5 +1,5 @@
 function writing() {
-   const textarea = document.getElementById('myTextarea');
+   const textarea = document.getElementById('comment');
    let postcolor;
    let sitename;
    
