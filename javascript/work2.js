@@ -4,9 +4,11 @@ function posting() {
  const optionId = selectedOption.id;
 
  let discordWebHookURL;
+ let postcolor;
    
  if (optionId === "A") {
   discordWebHookURL = "https://discord.com/api/webhooks/1412677510742937652/jqDPn5ikcZ03UEztX7kPRhCuUvrKppOhCCwjk8gJXzvwaSujg4ZvM5b0VfUuI8OqkCKd";
+  postcolor = 28864;
  }
  else if (optionId === "B") {
   discordWebHookURL = "https://discord.com/api/webhooks/1412678875753873448/z_IuLTcmedIrqsev0Tokl_0FXo31oklcxvmptORK4NIsrIrIe9xBYU8T0kRzOe7losZa";
@@ -60,8 +62,13 @@ function posting() {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      content: messageContent,
-      tts: false
+       content: "",
+       embeds: [
+          {
+      description: messageContent,
+      color: postcolor
+          }
+      ]
     })
   })
   commentElement.value = '';
