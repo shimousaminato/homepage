@@ -2,82 +2,122 @@ function getSiteInfo(optionId) {
   let discordWebHookURL;
   let sitename;
   let postcolor;
+  let imageurl;
 
   switch (optionId) {
     case "A":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412677510742937652/jqDPn5ikcZ03UEztX7kPRhCuUvrKppOhCCwjk8gJXzvwaSujg4ZvM5b0VfUuI8OqkCKd";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "空想鉄道";
       postcolor = 28864;
+      imageurl = "https://top.chi-zu.net/railway.png";
       break;
     case "B":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412678875753873448/z_IuLTcmedIrqsev0Tokl_0FXo31oklcxvmptORK4NIsrIrIe9xBYU8T0kRzOe7losZa";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "空想道路";
       postcolor = 39246;
+      imageurl = "https://top.chi-zu.net/road.png";
       break;
     case "C":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412684147234836512/_JF8rUVWMbZrxzr44Zt5fcJI4c2hqtqcH5I9T6cqBcmZufGzZh7Gt4id_YCes8_4K74e";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "空想地図";
       postcolor = 16750848;
+      imageurl = "https://top.chi-zu.net/any.png";
       break;
     case "D":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412684162539720776/h8DgBWFEBM82mi7dIv1-p-sZviHFlvE2ukPcPSkixZ0NyyY_7SUfnqUL05pGlTPLjgiw";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "空想路線図";
       postcolor = 11803652;
+      imageurl = "https://top.chi-zu.net/chart.png";
       break;
     case "E":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412684167988379718/E7-r9JaWKZFCSk0XB2wFe7qCuCSUDpy1b9FnR_IHRn3ib9sXy4ZHgkc7KCqwr-X2FHZw";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "空想図画";
       postcolor = 8392320;
+      imageurl = "https://top.chi-zu.net/pict.png";
       break;
     case "F":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412684175428944003/bpX_iJAjeZrUvpxUN0wWIMF6ExU9iZjIm13t5VRBQE0aL7PQOuyJ70FIgUUlm-7WA5kK";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "空想文章";
       postcolor = 1127185;
+      imageurl = "https://top.chi-zu.net/memo.png";
       break;
     case "G":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412684184102633532/gHqXveHM-IUTN0HCG5zveQmMQcNdMor5bYbjY-499oOOrfUONYKbKuDQqj_g0T6raBfI";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "時刻表くらぶ";
       postcolor = 6710886;
+      imageurl = "https://top.chi-zu.net/timetable.png";
       break;
     case "H":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412684212393480324/Z0ydeOjdvJjdcoNIqH09cJJmItaYbcKiyd-P9IpenBlN-VoJA-tM6zddHYnXDFfvdc43";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "点描くらぶ";
       postcolor = 32896;
+      imageurl = "https://top.chi-zu.net/point.png";
       break;
     case "I":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412684219066482688/G2AFFAEaL3dEAxRiJeDQ9CJZpMbnYXkkwvJdxJiieGMBf_GRUQfQ07mRE29oy193J_Jx";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "似顔絵くらぶ";
       postcolor = 6724095;
+      imageurl = "https://top.chi-zu.net/nigaoe.png";
       break;
     case "J":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412684221977460747/OCFvmogXLB3Z5puKk3N6QrHmWE8Eiz7OKXBO-UhYWQ8EK3adva8spUATEEohGpHwns22";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "問題くらぶ";
       postcolor = 3754411;
+      imageurl = "https://top.chi-zu.net/quiz.png";
       break;
     case "K":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412684227413151854/aLk9eLvOfesuS39DjXnpAeMchCIaNqxBvVvDhDVLsJ7we7oa0-3kJh3pk7oj9sqQOHj7";
-      sitename = "ふぁん";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
+      sitename = "道州制ふぁん";
       postcolor = 16739328;
+      imageurl = "https://top.chi-zu.net/doshu.png";
       break;
     case "L":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412684231989268611/L7Jcfw_DBdug2NPFpcCAsepfuqSZRETE5GQNO2ElVQUA5IxxxYpRoeSb4mHwLLCYSCtU";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "地図ぬりえ";
       postcolor = 6003669;
+      imageurl = "https://top.chi-zu.net/nurie.png";
       break;
     case "M":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412807032813129788/yIMID4KPyxLaL5VoW1XtRjNoCpAwgTwPy2vsUsTlfLtygFpzFq13d_EOwvyxzYpczlTM";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "私的空間";
       postcolor = 16777215;
+      imageurl = "https://top.chi-zu.net/personal.png";
       break;
     case "N":
-      discordWebHookURL = "https://discord.com/api/webhooks/1412807160479482007/djum3UWbzPE0i_X8k693hsBckMKFMIHK1YdH2XAZDzzJ_IXK2HAzRI1ut0hG-2A7g_rO";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "空想別館";
       postcolor = 2043732;
+      imageurl = "https://top.chi-zu.net/annex.png";
       break;
     case "O":
-      discordWebHookURL = "https://discord.com/api/webhooks/1413155797998764132/PEJOvur6VY1GI6YPku6h2dbHYQyGFCphPzhX-22o0i883X3K8w7qpX4DoP0b3-qFluFv";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "空想研究室";
       postcolor = 0;
+      imageurl = "https://top.chi-zu.net/logo.png";
+      break;
+    case "P":
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
+      sitename = "大阪都ふぁん";
+      postcolor = 4811233;
+      imageurl = "https://top.chi-zu.net/oosakato.png";
+      break;
+    case "Q":
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
+      sitename = "東京都ふぁん";
+      postcolor = 16711680;
+      imageurl = "https://top.chi-zu.net/tokyoto.png";
+      break;
+    case "R":
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
+      sitename = "律令国ふぁん";
+      postcolor = 8666124;
+      imageurl = "https://top.chi-zu.net/ritsuryo.png";
+      break;
+    case "S":
+      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
+      sitename = "六大陸ふぁん";
+      postcolor = 5538357;
+      imageurl = "https://top.chi-zu.net/rokutairiku.png";
       break;
     case "Z":
       discordWebHookURL = "https://discord.com/api/webhooks/1412837427134992492/lTVX8Dn2b1j_XzHj22q5n4oEcI5mAGH3_bdOn9gO_okWFyuS5aq1rd7vD-d3nbrNgndF";
@@ -91,7 +131,7 @@ function getSiteInfo(optionId) {
       postcolor = 0;
       break;
   }
-  return { discordWebHookURL, sitename, postcolor };
+  return { sitename, postcolor };
 }   
 function posting() {
   const selectElement = document.getElementById('siteselect');
@@ -99,7 +139,7 @@ function posting() {
   const optionId = selectedOption.id;
 
   const siteInfo = getSiteInfo(optionId);
-  const discordWebHookURL = siteInfo.discordWebHookURL;
+  const discordWebHookURL = siteinfo.discordWebHookURL;
   const postcolor = siteInfo.postcolor;
   
   const commentElement = document.getElementById('comment');
