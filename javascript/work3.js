@@ -159,7 +159,7 @@ function posting() {
         {
           "description": messageContent,
           "color": postcolor,
-          "humbnail":{
+          "thumbnail":{
             "url": imageurl
           }
         }
