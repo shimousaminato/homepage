@@ -109,7 +109,8 @@ function writing() {
             try {
   const text = await navigator.clipboard.readText();              
   Textarea.value = text;
-            }
+            } catch(err) {
+              console.log('error');
 }
    
 function posting() {
