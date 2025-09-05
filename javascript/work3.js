@@ -92,30 +92,7 @@ function getSiteInfo(optionId) {
       break;
   }
   return { discordWebHookURL, sitename, postcolor };
-}
-
-function writing() {
-  const selectElement = document.getElementById('siteselect');
-  const selectedOption = selectElement.options[selectElement.selectedIndex];
-  const optionId = selectedOption.id;
-
-  const siteInfo = getSiteInfo(optionId);
-  const sitename = siteInfo.sitename;
-
-  const textarea = document.getElementById('comment');
-  const pasteButton = document.getElementById('pasteButton');
-
-  pasteButton.addEventListener('click', async () => {
-            try {
-  const text = await navigator.clipboard.readText();              
-  textarea.value = text;
-            } catch(err) {
-              console.log('error');
-            }
-  }
-                               }
-
-   
+}   
 function posting() {
   const selectElement = document.getElementById('siteselect');
   const selectedOption = selectElement.options[selectElement.selectedIndex];
