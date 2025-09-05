@@ -139,7 +139,7 @@ function posting() {
   const optionId = selectedOption.id;
 
   const siteInfo = getSiteInfo(optionId);
-  const discordWebHookURL = siteinfo.discordWebHookURL;
+  const discordWebHookURL = siteInfo.discordWebHookURL;
   const postcolor = siteInfo.postcolor;
   
   const commentElement = document.getElementById('comment');
