@@ -112,7 +112,9 @@ function writing() {
             } catch(err) {
               console.log('error');
             }
-}
+  }
+                               }
+
    
 function posting() {
   const selectElement = document.getElementById('siteselect');
