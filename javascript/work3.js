@@ -108,7 +108,7 @@ function writing() {
   pasteButton.addEventListener('click', async () => {
             try {
   const text = await navigator.clipboard.readText();              
-  Textarea.value = text;
+  textarea.value = text;
             } catch(err) {
               console.log('error');
 }
