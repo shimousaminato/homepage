@@ -103,8 +103,13 @@ function writing() {
   const sitename = siteInfo.sitename;
 
   const textarea = document.getElementById('comment');
-  const message = sitename + "の現在の投稿数は  です。\n 期まであと  作品です。";
-  textarea.value = message;
+  const pasteButton = document.getElementById('pasteButton');
+
+  pasteButton.addEventListener('click', async () => {
+            try {
+  const text = await navigator.clipboard.readText();              
+  Textarea.value = text;
+            }
 }
    
 function posting() {
