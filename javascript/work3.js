@@ -159,9 +159,7 @@ function posting() {
         {
           description: messageContent,
           color: postcolor,
-          image:{
-            url: imageurl
-          }
+          .setimage(imageurl)
         }
       ]
     })
