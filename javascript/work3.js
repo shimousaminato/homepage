@@ -131,7 +131,7 @@ function getSiteInfo(optionId) {
       postcolor = 0;
       break;
   }
-  return { discordWebHookURL, sitename, postcolor };
+  return { discordWebHookURL, sitename, postcolor, imageurl };
 }   
 function posting() {
   const selectElement = document.getElementById('siteselect');
@@ -141,6 +141,7 @@ function posting() {
   const siteInfo = getSiteInfo(optionId);
   const discordWebHookURL = siteInfo.discordWebHookURL;
   const postcolor = siteInfo.postcolor;
+  const imageurl = siteInfo.imageurl
   
   const commentElement = document.getElementById('comment');
   const messageContent = commentElement.value;
@@ -157,7 +158,7 @@ function posting() {
           description: messageContent,
           color: postcolor,
           image:{
-            url: imageurl;
+            url: imageurl
           }
         }
       ]
