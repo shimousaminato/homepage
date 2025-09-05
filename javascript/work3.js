@@ -111,6 +111,7 @@ function writing() {
   textarea.value = text;
             } catch(err) {
               console.log('error');
+            }
 }
    
 function posting() {
