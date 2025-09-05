@@ -131,7 +131,7 @@ function getSiteInfo(optionId) {
       postcolor = 0;
       break;
   }
-  return { sitename, postcolor };
+  return { discordWebHookURL, sitename, postcolor };
 }   
 function posting() {
   const selectElement = document.getElementById('siteselect');
