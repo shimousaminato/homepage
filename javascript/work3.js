@@ -155,7 +155,10 @@ function posting() {
       embeds: [
         {
           description: messageContent,
-          color: postcolor
+          color: postcolor,
+          image:{
+            url: imageurl;
+          }
         }
       ]
     })
