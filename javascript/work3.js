@@ -149,18 +149,18 @@ function posting() {
   const messageContent = commentElement.value;
 
   fetch(discordWebHookURL, {
-    method: 'POST',
-    headers: {
+    "method": 'POST',
+    "headers": {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({
-      content: "",
-      embeds: [
+    "body": JSON.stringify({
+      "content": "",
+      "embeds": [
         {
-          description: messageContent,
-          color: postcolor,
-          image:{
-            url: imageurl
+          "description": messageContent,
+          "color": postcolor,
+          "humbnail":{
+            "url": imageurl
           }
         }
       ]
