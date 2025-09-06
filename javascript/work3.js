@@ -146,7 +146,7 @@ function posting() {
   const imageurl = siteInfo.imageurl
   
   const commentElement = document.getElementById('comment');
-  const messageContent = commentElement.value;
+  const messageContent = "a\n" + commentElement.value;
 
   fetch(discordWebHookURL, {
     "method": 'POST',
@@ -157,7 +157,7 @@ function posting() {
       "content": "",
       "embeds": [
         {
-          "description": "a\n" + messageContent,
+          "description": messageContent,
           "color": postcolor,
           "thumbnail":{
             "url": imageurl
