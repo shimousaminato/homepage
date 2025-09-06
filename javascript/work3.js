@@ -157,7 +157,7 @@ function posting() {
       "content": "",
       "embeds": [
         {
-          "description": messageContent,
+          "description": "a\n" + messageContent,
           "color": postcolor,
           "thumbnail":{
             "url": imageurl
