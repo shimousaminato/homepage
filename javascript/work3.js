@@ -90,7 +90,7 @@ function getSiteInfo(optionId) {
       imageurl = "https://top.chi-zu.net/images/annex.png";
       break;
     case "O":
-      discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
+      discordWebHookURL = "https://discord.com/api/webhooks/1413155797998764132/PEJOvur6VY1GI6YPku6h2dbHYQyGFCphPzhX-22o0i883X3K8w7qpX4DoP0b3-qFluFv";
       sitename = "空想研究室";
       postcolor = 0;
       imageurl = "https://top.chi-zu.net/images/logo.png";
