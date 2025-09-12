@@ -129,7 +129,6 @@ function getSiteInfo(optionId) {
       // デフォルト値
       discordWebHookURL = "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_";
       sitename = "";
-      postcolor = 0;
       imageurl = "";
       break;
   }
