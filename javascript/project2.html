@@ -5,8 +5,8 @@
     <link href="/homepage/index.css"></link>
   </head>
   <body>
-  <a href="/homepage/javascript/list.html">リストへ戻る</a>
- <select id="siteselect" style="width: 100%; height: 50px;">
+    <a href="/homepage/javascript/list.html">リストへ戻る</a>
+    <select id="siteselect" style="width: 100%; height: 50px;">
       <option id="A" selected>空想鉄道</option>
       <option id="B">空想道路</option>
       <option id="C">空想地図</option>
@@ -28,9 +28,8 @@
       <option id="O">空想研究室</option>
       <option id="Z">部活の</option>
     </select><br>
-    <button id="botan">テスト</button>
+    <button id="botan" onclick="mentioned()">メンションを挿入</button>
     <textarea id="comment" style="width: 100%; height: 300px;"></textarea><br>
-  <button onclick="posting()" style="width: 100px; height: 50px;">送信</button>
-  <div id="test"></div>
+    <button onclick="posting()" style="width: 100px; height: 50px;">送信</button>
   </body>
 </html>
