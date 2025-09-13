@@ -21,44 +21,43 @@ const siteData = {
     "Z": { webhook: "https://discord.com/api/webhooks/1413517661106864219/wuOYSUYqji1ztAW6Cgn5mnvBJdhTYBZtP9eXp6dSffZVCmN96sZO2OYRBbLRfDlWmRm_", name: "<@1413833198022037566>" },
 };
 
-// メンションを挿入する関数
 function mentioned() {
     const selectElement = document.getElementById('siteselect');
     const optionId = selectElement.options[selectElement.selectedIndex].id;
     
-    const sitename = siteData[optionId] ? siteData[optionId].name : '';
-    
-    const commentElement = document.getElementById('comment');
-    commentElement.value += sitename + ' ';
+    // Check if the key exists in siteData
+    if (siteData[optionId] && siteData[optionId].name) {
+        const sitename = siteData[optionId].name;
+        const commentElement = document.getElementById('comment');
+        commentElement.value += sitename + ' ';
+    }
 }
 
-// Discordにメッセージを送信する関数 (元のコードから修正)
 function posting() {
     const selectElement = document.getElementById('siteselect');
     const optionId = selectElement.options[selectElement.selectedIndex].id;
     
-    const siteInfo = siteData[optionId];
-    const discordWebHookURL = siteInfo ? siteInfo.webhook : '';
+    // Check if the key exists and if the webhook URL is valid
+    if (siteData[optionId] && siteData[optionId].webhook) {
+        const discordWebHookURL = siteData[optionId].webhook;
+        const commentElement = document.getElementById('comment');
+        const messageContent = commentElement.value;
 
-    const commentElement = document.getElementById('comment');
-    const messageContent = commentElement.value;
-
-    if (!discordWebHookURL || !messageContent) {
-        return; // メッセージを送信しない
-    }
-    
-    fetch(discordWebHookURL, {
-        "method": 'POST',
-        "headers": {
-            'Content-Type': 'application/json',
-        },
-        "body": JSON.stringify({
-            "content": messageContent,
-        }),
-    })
-    .then(response => {
-        if (response.ok) {
-            commentElement.value = ''; // 送信成功時のみテキストエリアをクリア
+        if (messageContent) {
+            fetch(discordWebHookURL, {
+                "method": 'POST',
+                "headers": {
+                    'Content-Type': 'application/json',
+                },
+                "body": JSON.stringify({
+                    "content": messageContent,
+                }),
+            })
+            .then(response => {
+                if (response.ok) {
+                    commentElement.value = '';
+                }
+            });
         }
-    });
+    }
 }
