@@ -1,0 +1,89 @@
+body {
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* 戻るリンクのスタイル */
+a {
+  color: #4a5c6a;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #d1d8df;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+  background-color: #bcc3cb;
+  transform: translateY(-2px);
+}
+
+/* フォーム要素の共通スタイル */
+select,
+textarea,
+button {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s ease;
+}
+
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* テキストエリアのスタイル */
+textarea {
+  height: 300px;
+  resize: vertical;
+}
+
+/* ボタンのスタイル */
+button {
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* 送信ボタンのスタイル */
+.footer-button {
+  width: 100%;
+  max-width: 100px;
+  height: 50px;
+}
+
+/* メンションボタンのスタイル */
+#botan {
+  background-color: #6c757d;
+}
+
+#botan:hover {
+  background-color: #5a6268;
+}
